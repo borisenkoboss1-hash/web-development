@@ -6,9 +6,3 @@
 - **GitHub:** [github.com/dinaborisenko](https://github.com/dinaborisenko)
 
 
-## About Me
-I am a second-year student specializing in Software Development.
-
-## Skills
-- C++ (basic)
-- HTML, CSS (basic)
