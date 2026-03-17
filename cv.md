@@ -1,8 +1,8 @@
-# Daria Borisenko
+# Dina Borisenko
 
 ## Contact Information
-- **Phone:** +7 (999) 123-45-67
-- **Email:** daria.borisenko@example.com
+- **Phone:** +375 (29) 123-45-67
+- **Email:** dina.borisenko@example.com
 - **GitHub:** [github.com/dariaborisenko](https://github.com/dariaborisenko)
 
 ## About Me
