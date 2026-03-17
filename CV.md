@@ -76,3 +76,11 @@ namespace ArraySorting
         }
     }
 }
+
+## Hobbies & Interests
+
+### Drawing
+In my free time, I enjoy drawing and sketching. I like to create both traditional pencil drawings and digital art. Drawing helps me develop my creativity and attention to detail - skills that are also important in programming.
+
+### Photography
+I love taking photos of nature, architecture, and everyday moments. Photography teaches me to see the beauty in ordinary things and pay attention to composition and lighting. I use a simple camera and sometimes edit photos on my computer.
