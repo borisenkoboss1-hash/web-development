@@ -2,4 +2,4 @@
 Здесь будет моё CV
 ## Ссылка на моё CV
 Моё резюме доступно по ссылке:  
-[https://borisenkoboss1.github.io/web-development/cv.md](https://borisenkoboss1.github.io/web-development/cv.md)
+[https://borisenkoboss1-hash.github.io/web-development/CV.md](https://borisenkoboss1-hash.github.io/web-development/CV.md)
