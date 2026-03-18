@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dina Borisenko CV</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f5f7fa;
+            padding: 40px 20px;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            padding: 40px;
+        }
+        
+        h1 {
+            font-size: 2.5em;
+            color: #2c3e50;
+            border-bottom: 3px solid #3498db;
+            padding-bottom: 10px;
+            margin-bottom: 30px;
+        }
+        
+        h2 {
+            color: #34495e;
+            margin: 25px 0 15px;
+            border-left: 4px solid #3498db;
+            padding-left: 15px;
+        }
+        
+        h3 {
+            color: #2980b9;
+            margin: 20px 0 10px;
+        }
+        
+        .contact-info {
+            background: #f8f9fa;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 30px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+        }
+        
+        .contact-info p {
+            margin: 0;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        
+        th {
+            background: #3498db;
+            color: white;
+        }
+        
+        tr:hover {
+            background: #f5f5f5;
+        }
+        
+        pre {
+            background: #2c3e50;
+            color: #ecf0f1;
+            padding: 20px;
+            border-radius: 8px;
+            overflow-x: auto;
+            font-family: 'Courier New', monospace;
+        }
+        
+        code {
+            font-family: 'Courier New', monospace;
+        }
+        
+        .hobby-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin: 20px 0;
+        }
+        
+        .hobby-card {
+            background: #f8f9fa;
+            border-radius: 8px;
+            padding: 20px;
+            text-align: center;
+            transition: transform 0.3s;
+        }
+        
+        .hobby-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+        }
+        
+        .hobby-card .emoji {
+            font-size: 3em;
+            margin-bottom: 10px;
+        }
+        
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #ddd;
+            color: #7f8c8d;
+        }
+        
+        @media (max-width: 600px) {
+            .container {
+                padding: 20px;
+            }
+            
+            h1 {
+                font-size: 2em;
+            }
+            
+            .contact-info {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Dina Borisenko</h1>
+        
+        <div class="contact-info">
+            <p>📞 +375 (29) 123-45-67</p>
+            <p>📧 dina.borisenko@example.com</p>
+            <p>💻 github.com/dinaborisenko</p>
+            <p>📍 Belarus</p>
+        </div>
+
+        <h2>About Me</h2>
+        <p>I am a second-year university student specializing in <strong>Software Development</strong>. I am motivated to learn new technologies and improve my skills every day. My goal is to become a professional backend developer.</p>
+
+        <h2>Skills</h2>
+        
+        <h3>Technical Skills</h3>
+        <table>
+            <tr>
+                <th>Category</th>
+                <th>Technologies</th>
+            </tr>
+            <tr>
+                <td><strong>Languages</strong></td>
+                <td>C# (basic), C++ (basic), HTML, CSS</td>
+            </tr>
+            <tr>
+                <td><strong>Tools</strong></td>
+                <td>Git, GitHub, VS Code</td>
+            </tr>
+            <tr>
+                <td><strong>Other</strong></td>
+                <td>Markdown, Basic algorithms</td>
+            </tr>
+        </table>
+
+        <h3>Language Skills</h3>
+        <table>
+            <tr>
+                <th>Language</th>
+                <th>Level</th>
+            </tr>
+            <tr>
+                <td>English</td>
+                <td>Pre-Intermediate (A2-B1)</td>
+            </tr>
+            <tr>
+                <td>Russian</td>
+                <td>Fluent</td>
+            </tr>
+            <tr>
+                <td>Belarusian</td>
+                <td>Native</td>
+            </tr>
+        </table>
+
+        <h2>Code Example</h2>
+        <h3>Bubble Sort in C#</h3>
+        <pre><code>using System;
+
+namespace ArraySorting
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int[] numbers = { 64, 34, 25, 12, 22, 11, 90 };
+
+            Console.WriteLine("Original array:");
+            PrintArray(numbers);
+
+            BubbleSort(numbers);
+
+            Console.WriteLine("\nSorted array:");
+            PrintArray(numbers);
+        }
+
+        static void BubbleSort(int[] arr)
+        {
+            int n = arr.Length;
+            for (int i = 0; i < n - 1; i++)
+            {
+                for (int j = 0; j < n - i - 1; j++)
+                {
+                    if (arr[j] > arr[j + 1])
+                    {
+                        int temp = arr[j];
+                        arr[j] = arr[j + 1];
+                        arr[j + 1] = temp;
+                    }
+                }
+            }
+        }
+
+        static void PrintArray(int[] arr)
+        {
+            foreach (int num in arr)
+            {
+                Console.Write(num + " ");
+            }
+            Console.WriteLine();
+        }
+    }
+}</code></pre>
+        <p><em>This code demonstrates a simple bubble sort algorithm written in C#.</em></p>
+
+        <h2>Hobbies & Interests</h2>
+        
+        <div class="hobby-grid">
+            <div class="hobby-card">
+                <div class="emoji">🎨</div>
+                <h3>Drawing</h3>
+                <p>I enjoy drawing and sketching. I like to create both traditional pencil drawings and digital art. Drawing helps me develop creativity and attention to detail.</p>
+            </div>
+            
+            <div class="hobby-card">
+                <div class="emoji">📸</div>
+                <h3>Photography</h3>
+                <p>I love taking photos of nature, architecture, and everyday moments. Photography teaches me to see beauty in ordinary things and pay attention to composition.</p>
+            </div>
+            
+            <div class="hobby-card">
+                <div class="emoji">🌟</div>
+                <h3>Other Interests</h3>
+                <p>Reading books, listening to music, learning new technologies, walking in nature.</p>
+            </div>
+        </div>
+
+        <h2>Education</h2>
+        <table>
+            <tr>
+                <th>Period</th>
+                <th>Institution</th>
+                <th>Specialization</th>
+            </tr>
+            <tr>
+                <td>2023 - present</td>
+                <td>University</td>
+                <td>Software Development</td>
+            </tr>
+        </table>
+
+        <h2>Courses & Trainings</h2>
+        <ul>
+            <li>✅ Git Basics (2024)</li>
+            <li>✅ C# Programming Fundamentals (2023)</li>
+            <li>✅ HTML/CSS Introduction (2023)</li>
+        </ul>
+
+        <div class="footer">
+            <p>Last updated: March 2026</p>
+        </div>
+    </div>
+</body>
+</html>
