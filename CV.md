@@ -15,9 +15,6 @@ I am a second-year university student specializing in Software Development. I am
 - Git, GitHub
 - Markdown
 
-Фото
-https://funny.klev.club/smeh/6797-smeshnye-kartinki-avatarki-net.html 
-
 
 English Language
 Level: Beginner-Intermediate (A2-B1)
