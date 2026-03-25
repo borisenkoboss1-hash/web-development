@@ -26,6 +26,7 @@ Watching programming tutorials in English
 Reading technical documentation with translation help
 
 Code Examples
+```csharp
 using System;
 
 namespace ArraySorting
@@ -73,7 +74,7 @@ namespace ArraySorting
         }
     }
 }
-
+```
 ## Hobbies & Interests
 
 ### Drawing
